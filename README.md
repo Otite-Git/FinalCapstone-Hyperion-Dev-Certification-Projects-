@@ -1,6 +1,8 @@
-Python Project undertaken on the CoGrammar Hyperion Dev Bootcamp:
+# HyerionDev Bootcamp Project
 
-In this repositry you will see the projects that I have undertaken during my time on the CoGrammar Hyperion Dev Bootcamp. You will find progressive development of my Python skills over the 16 weeks duration of the Bootcamp program.
+Python Project undertaken on the CoGrammar HyperionDev Bootcamp:
+
+In this repositry you will see the projects that I have undertaken during my time on the CoGrammar HyperionDev Bootcamp. You will find progressive development of my Python skills over the 16 weeks duration of the Bootcamp program.
 
 1. Simple Age Quiz
 2. Triathlon Award Calculator
