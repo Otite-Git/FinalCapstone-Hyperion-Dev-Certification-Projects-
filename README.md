@@ -8,4 +8,5 @@ In this repositry you will see the projects that I have undertaken during my tim
 2. Triathlon Award Calculator
 3. Finance_Calculator
 4. (Personal) Pull and Bear Shopping Cart (pending)
-5. (Personal) Daily Workout Routine Generator 
+5. (Personal) Daily Workout Routine Generator
+6. (Personal) CareerCrafter
