@@ -4,7 +4,7 @@ def seperator(): # Seperator defined to help section the different phases of the
     print("="*103)
 
 seperator()
-print("\n") # new life operator used to format the program
+print("\n") # new life operator used to format the program.
 print("""Hi there! I am Personal Program Trainer also known as PPT\n\nWelcome to your personal daily workout routine program. I help generate workouts based on your BMI. I 
 will also help generate workouts based on your fitness goals, workout durations and your muscle target.""")
 print("\n")
