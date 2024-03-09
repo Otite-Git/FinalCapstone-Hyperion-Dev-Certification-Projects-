@@ -18,7 +18,7 @@ exercise_database = {
     'Triceps':['Lying Triceps Extension', 'Triceps Dips', 'Overhead Tricep Extension', 'Tricep Push Down', 'Weighted Bench Dip'],
     'Back':   ['Deadlifts', 'Romanian Deadlifts', 'Bent-over Rows', 'Pull-ups', 'Seated Cable Rows', 'One-arm Dumbbell Row', 'Y Raises', 'Shoulder Shrug'],
     'Abs':    ['Barbell Russian Twist', 'Swiss Ball Crunch', 'Flutter Kicks', 'Leg Raises', 'Sit Ups', 'Plank'],
-    'Cardio': ['Jump Rope', 'Cycling', 'Box Jumps', 'Jumping Jacks', 'Burpees', 'Mountain Climbers']
+    'Cardio': ['Jump Rope', 'Cycling', 'Box Jumps', 'Jumping Jacks', 'Burpees', 'Mountain Climbers', 'Rowing','Cycling','swimming','Burpees','Squat Jumps']
 }
 print("\n")
 print("Lets get started with your BMI")
@@ -54,7 +54,7 @@ print("\n")
 import random #import random function is  used to random pull exercises from catergorised database and feed into print function when providing suggested exercises
 
 def generate_workout(fitness_goal, workout_duration, targeted_muscle_group, BMI):
-    if BMI < 18.5:  # Underweight
+    if BMI < 18.5:  #For indivuals who fall into the Underweight category
         print(f"Based on your BMI of {BMI:.2f} and fitness goal to {fitness_goal}, here is your personalsied workout plan:")
         print("\n")
         print(f"Your workout duration is: {workout_duration} minutes")
@@ -73,7 +73,7 @@ def generate_workout(fitness_goal, workout_duration, targeted_muscle_group, BMI)
         print("Carry out 3 sets per muscle exercise 8 - 12 reps")
         
 
-    elif BMI >= 18.5 and BMI <= 24.9:  # Healthy weight
+    elif BMI >= 18.5 and BMI <= 24.9:  #For individuals whp fall into the Healthy weight category
         print(f"Based on your BMI of {BMI:.2f} and fitness goal to {fitness_goal}, here is your personalsied workout plan:")
         print("\n")
         print(f"Your workout duration is: {workout_duration} minutes")
@@ -92,7 +92,7 @@ def generate_workout(fitness_goal, workout_duration, targeted_muscle_group, BMI)
         print("Carry out 3 sets per muscle exercise 8 - 12 reps")
 
 
-    elif BMI >= 25 and BMI <= 29.9:  # Overweight
+    elif BMI >= 25 and BMI <= 29.9:  #For individuals who fall into the Overweight category
         print(f"Based on your BMI of {BMI:.2f} and fitness goal to {fitness_goal}, here is your personalsied workout plan:")
         print("\n")
         print(f"Your workout duration is: {workout_duration} minutes")
@@ -108,7 +108,7 @@ def generate_workout(fitness_goal, workout_duration, targeted_muscle_group, BMI)
         print("Cardio: ", random.sample(exercise_database['Cardio'],k=2))
         print("Carry out 3 sets per muscle exercise 10 - 15 reps. Remember to use light weight. Your exercise should be focused on endurance!")
 
-    elif BMI >= 30:  # Obese
+    elif BMI >= 30:  #For individuals who fall into the Obese category
         print(f"Based on your BMI of {BMI:.2f} and fitness goal to {fitness_goal}, here is your personalsied workout plan:")
         print("\n")
         print(f"Your workout duration is: {workout_duration} minutes")
