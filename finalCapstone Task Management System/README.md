@@ -47,25 +47,26 @@ Task overview and user overview reports are stored in "task_overview.txt" and "u
 
 ### Register New User:
 
-Choose 'r' from the main menu.
+Choose **'r'** from the main menu.
 Enter a new username and password.
 Add Task:
 
-Choose 'a' from the main menu.
+Choose **'a'** from the main menu.
 Provide details such as the assigned user, task title, description, and due date.
 View Tasks:
 
-Choose 'va' to view all tasks.
-Choose 'vm' to view tasks assigned to you.
-Generate Reports:
+Choose **'va'** to view all tasks.
+Choose **'vm'** to view tasks assigned to you.
 
-Choose 'gr' to generate reports, providing an overview of tasks and user statistics.
+**Generate Reports**:
+
+Choose **'gr'** to generate reports, providing an overview of tasks and user statistics.
 Display Statistics (Admin Only):
 
-Choose 'ds' to display basic statistics (admin only).
-Exit:
+Choose **'ds'** to display basic statistics (admin only).
+**Exit:**
 
-Choose 'e' to exit the program.
+Choose **'e'** to exit the program.
 
 ## Caution
 The program relies on accurate date and time formatting. Use the specified "YYYY-MM-DD" format for due dates.
@@ -77,3 +78,47 @@ Feel free to manage your tasks efficiently using this system, and thank you for 
 Ensure data integrity by following the specified formats for usernames, passwords, and datetime entries.
 Admin functionalities (display statistics) are only available to users with the username 'admin.'
 Feel free to manage your tasks efficiently using this system, and thank you for using our task management program!
+
+# Task Management System
+
+## Installation
+
+Follow these steps to install and run the Task Management System Python program on your local machine:
+
+### Prerequisites
+
+- Ensure you have Python installed on your machine. If not, you can download it from [Python's official website](https://www.python.org/downloads/).
+
+### Clone the Repository
+
+**```bash**
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+Run the Program
+Open a terminal or command prompt and navigate to the project directory. Run the following command to execute the program:
+
+**bash**
+***Copy code***
+python Task_Management_System.py
+User and Task Data Files
+The program uses two text files (user_overview.txt and task_overview.txt) to store user and task data. Make sure these files are present in the project directory. If they don't exist, the program will create them during execution.
+
+**Login**
+Follow the on-screen prompts to log in with your username and password. If you're a new user, you'll be prompted to register before logging in.
+
+**Main Menu**
+Once logged in, you'll be presented with a main menu where you can perform various actions, such as registering a new user, adding tasks, viewing tasks, generating reports, and more.
+
+**Exit**
+To exit the program, select the 'e' option from the main menu.
+
+Feel free to explore and customize the program based on your requirements!
+
+javascript
+Copy code
+
+Replace `your-username` and `your-repository` with your actual GitHub username and repository name. This section provides users with clear instructions on how to install and run your Task Management System Python program locally.
+
+
+
+
