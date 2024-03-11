@@ -82,16 +82,16 @@ Feel free to manage your tasks efficiently using this system, and thank you for 
 ## Set Up Virtual Environment
 ***Create a virtual environment to manage project dependencies:***
 
-# Create a virtual environment (Windows)
+## Create a virtual environment (Windows)
 python -m venv venv
 
-# Activate the virtual environment (Windows)
+## Activate the virtual environment (Windows)
 venv\Scripts\activate
 
-# Create a virtual environment (Mac/Linux)
+## Create a virtual environment (Mac/Linux)
 python3 -m venv venv
 
-# Activate the virtual environment (Mac/Linux)
+## Activate the virtual environment (Mac/Linux)
 source venv/bin/activate
 
 ## Install Dependencies
