@@ -24,7 +24,9 @@ Statistics (Admin Only)
 
 ## File Management
 ### User Data
-User data is stored in the "user.txt" file, where each line represents a user with the format: username;password.
+User data is stored in the "user.txt" file, where each line represents a user with the format: username;password.The default Username is: admin. The default password is: password as seen in the screenshot below.
+
+<img width="1139" alt="Screenshot 2024-03-11 at 16 03 14" src="https://github.com/Otite-Git/FinalCapstone-Hyperion-Dev-Certification-Projects-/assets/154989610/12e1dac2-53b4-4df6-916f-d98331150499">
 
 ### Task Data
 Task data is stored in the "tasks.txt" file, where each line represents a task with the format: username;title;description;due_date;assigned_date;completed.
@@ -34,6 +36,8 @@ Task overview and user overview reports are stored in "task_overview.txt" and "u
 
 ### How to Use
 **Login**: Enter your username and password to log in.
+
+
 
 **Main Menu Options**:
 
