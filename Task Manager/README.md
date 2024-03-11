@@ -1,7 +1,7 @@
 # 🎒HyerionDev Bootcamp Projects & Personal Projects 🌟
-Hi! Welcome to my Task Management Sysmter Folder containg the Python Project 🚀:
+Hi! Welcome to my Task Management Sysmtem Folder containg the Python Project 🚀:
 
-In this repository you will see a description of the Task Manager project that I have developed as part of my personal progressive development of my code skills.
+In this repository you will see a description of the Task Management System project that I have developed as part of my personal progressive development of my code skills.
 
 ## Task Management System
 
@@ -66,7 +66,14 @@ Choose 'ds' to display basic statistics (admin only).
 Exit:
 
 Choose 'e' to exit the program.
-Note
+
+## Caution
+The program relies on accurate date and time formatting. Use the specified "YYYY-MM-DD" format for due dates.
+Admin functions are powerful and should be used responsibly.
+Ensure the proper closing of the program using the 'e' (exit) option to avoid data loss or corruption.
+Feel free to manage your tasks efficiently using this system, and thank you for using our task management program!
+
+## Note
 Ensure data integrity by following the specified formats for usernames, passwords, and datetime entries.
 Admin functionalities (display statistics) are only available to users with the username 'admin.'
 Feel free to manage your tasks efficiently using this system, and thank you for using our task management program!
