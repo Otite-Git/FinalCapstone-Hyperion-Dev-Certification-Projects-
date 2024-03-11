@@ -79,46 +79,36 @@ Ensure data integrity by following the specified formats for usernames, password
 Admin functionalities (display statistics) are only available to users with the username 'admin.'
 Feel free to manage your tasks efficiently using this system, and thank you for using our task management program!
 
-# Task Management System
+## Set Up Virtual Environment
+***Create a virtual environment to manage project dependencies:***
 
-## Installation
+# Create a virtual environment (Windows)
+python -m venv venv
 
-Follow these steps to install and run the Task Management System Python program on your local machine:
+# Activate the virtual environment (Windows)
+venv\Scripts\activate
 
-### Prerequisites
+# Create a virtual environment (Mac/Linux)
+python3 -m venv venv
 
-- Ensure you have Python installed on your machine. If not, you can download it from [Python's official website](https://www.python.org/downloads/).
+# Activate the virtual environment (Mac/Linux)
+source venv/bin/activate
 
-### Clone the Repository
+## Install Dependencies
+Install the required dependencies for the Task Management System
+pip install -r requirements.txt
 
-**```bash**
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-Run the Program
-Open a terminal or command prompt and navigate to the project directory. Run the following command to execute the program:
-
-**bash**
-***Copy code***
+## Run the Program
+Start the Task Management System program:
 python Task_Management_System.py
-User and Task Data Files
+
+Follow the on-screen prompts to log in and use the program.
+
+## User and Task Data Files
 The program uses two text files (user_overview.txt and task_overview.txt) to store user and task data. Make sure these files are present in the project directory. If they don't exist, the program will create them during execution.
 
-**Login**
-Follow the on-screen prompts to log in with your username and password. If you're a new user, you'll be prompted to register before logging in.
-
-**Main Menu**
-Once logged in, you'll be presented with a main menu where you can perform various actions, such as registering a new user, adding tasks, viewing tasks, generating reports, and more.
-
-**Exit**
+## Exit
 To exit the program, select the 'e' option from the main menu.
 
 Feel free to explore and customize the program based on your requirements!
-
-javascript
-Copy code
-
-Replace `your-username` and `your-repository` with your actual GitHub username and repository name. This section provides users with clear instructions on how to install and run your Task Management System Python program locally.
-
-
-
 
