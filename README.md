@@ -1,4 +1,4 @@
-# 🎒HyerionDev Bootcamp Projects & Personal Projects 🌟
+# 🎒HyerionDev Certification & Personal Projects 🌟
 
 **Hi! Welcome to my repo containing the Python Project undertaken on the CoGrammar HyperionDev Certification Program along with personal project I've gone on to develop on a variety on things 🚀:**
 
