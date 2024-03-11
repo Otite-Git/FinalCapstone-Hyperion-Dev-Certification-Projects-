@@ -102,10 +102,38 @@ git clone https://github.com/your-username/your-repository.git
 # Navigate to the project directory
 cd your-repository
 
-### Step 2: Set Up Virtual Environment
 
+Certainly! Here's the installation section in a user guide format for your README.md:
+
+markdown
+Copy code
+# Task Management System User Guide
+
+## Installation with Visual Studio Code
+
+### Prerequisites
+
+Before getting started, ensure you have the following installed on your machine:
+
+1. **Python:** Download and install Python from [Python's official website](https://www.python.org/downloads/).
+
+2. **Visual Studio Code:** If not already installed, download and install Visual Studio Code from [Visual Studio Code's official website](https://code.visualstudio.com/).
+
+### Step 1: Clone the Repository
+
+Open Visual Studio Code, open a terminal, and run the following commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repository.git
+
+# Navigate to the project directory
+cd your-repository
+Step 2: Set Up Virtual Environment
 Create and activate a virtual environment to manage dependencies:
 
+bash
+Copy code
 # Create a virtual environment (Windows)
 python -m venv venv
 
@@ -117,3 +145,33 @@ python3 -m venv venv
 
 # Activate the virtual environment (Mac/Linux)
 source venv/bin/activate
+Step 3: Install Dependencies
+Install the required dependencies for the Task Management System:
+
+bash
+Copy code
+pip install -r requirements.txt
+Step 4: Run the Program
+Start the Task Management System program:
+
+bash
+Copy code
+python Task_Management_System.py
+Follow the on-screen prompts to log in and use the program.
+
+Step 5: User and Task Data Files
+The program uses two text files (user_overview.txt and task_overview.txt) to store user and task data. Ensure these files are present in the project directory. If they don't exist, the program will create them during execution.
+
+Step 6: Exiting the Program
+To exit the program, select the 'e' option from the main menu.
+
+Feel free to explore and customize the program based on your requirements!
+
+arduino
+Copy code
+
+Replace `your-username` and `your-repository` with your actual GitHub username and repository name. This user guide provides clear steps for users to install and run your Task Management System Python program using Visual Studio Code.
+
+
+
+
