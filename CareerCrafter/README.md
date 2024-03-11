@@ -13,9 +13,9 @@ This project involves the development of a program that validates personal data 
 
 Error Handling: The program incorporates try-except blocks to efficiently manage unexpected exceptions. This helps in identifying and addressing various error types, enhancing the overall robustness of the application.
 
-User Guidance: The program guides the user through the application process by providing clear instructions and feedback, ensuring a smooth and error-free data entry experience.
+** User Guidance: The program guides the user through the application process by providing clear instructions and feedback, ensuring a smooth and error-free data entry experience.
 
-Usage
+## Usage
 To successfully complete the application form, users are prompted to follow these steps:
 
 Enter first name and surname: The program validates the presence of both first name and surname, displaying the full name in the correct format.
@@ -28,13 +28,13 @@ Enter age: Users are prompted to input their age, with the program handling non-
 
 Enter nationality: The program validates that the nationality consists of alphabetic characters only.
 
-Output
+## Output
 Upon successful completion of the data entry process, the program generates a summary table displaying the collected information. This table includes details such as full name, email address, contact number, age, and nationality.
 
-Dependencies
+## Dependencies
 The program relies on the tabulate library for presenting the collected information in a structured table format.
 
-How to Run
+## How to Run
 To execute the program, ensure that the required dependencies, especially the tabulate library, are installed. Run the script, and the program will guide you through the data validation process, providing feedback and summarizing the entered information at the end.
 
 Feel free to contribute or provide feedback to enhance the functionality and user experience of the program.
