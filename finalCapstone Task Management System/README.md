@@ -35,7 +35,7 @@ Task overview and user overview reports are stored in "task_overview.txt" and "u
 ### How to Use
 **Login**: Enter your username and password to log in.
 
-***Main Menu Options**:
+**Main Menu Options**:
 
 **r**: Register a new user.
 **a**: Add a new task.
@@ -79,36 +79,41 @@ Ensure data integrity by following the specified formats for usernames, password
 Admin functionalities (display statistics) are only available to users with the username 'admin.'
 Feel free to manage your tasks efficiently using this system, and thank you for using our task management program!
 
-## Set Up Virtual Environment
-***Create a virtual environment to manage project dependencies:***
+# Task Management System User Guide
 
-## Create a virtual environment (Windows)
+## Installation with Visual Studio Code
+
+### Prerequisites
+
+Before getting started, ensure you have the following installed on your machine:
+
+1. **Python:** Download and install Python from [Python's official website](https://www.python.org/downloads/).
+
+2. **Visual Studio Code:** If not already installed, download and install Visual Studio Code from [Visual Studio Code's official website](https://code.visualstudio.com/).
+
+### Step 1: Clone the Repository
+
+Open Visual Studio Code, open a terminal, and run the following commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repository.git
+
+# Navigate to the project directory
+cd your-repository
+
+### Step 2: Set Up Virtual Environment
+
+Create and activate a virtual environment to manage dependencies:
+
+# Create a virtual environment (Windows)
 python -m venv venv
 
-## Activate the virtual environment (Windows)
+# Activate the virtual environment (Windows)
 venv\Scripts\activate
 
-## Create a virtual environment (Mac/Linux)
+# Create a virtual environment (Mac/Linux)
 python3 -m venv venv
 
-## Activate the virtual environment (Mac/Linux)
+# Activate the virtual environment (Mac/Linux)
 source venv/bin/activate
-
-## Install Dependencies
-Install the required dependencies for the Task Management System
-pip install -r requirements.txt
-
-## Run the Program
-Start the Task Management System program:
-python Task_Management_System.py
-
-Follow the on-screen prompts to log in and use the program.
-
-## User and Task Data Files
-The program uses two text files (user_overview.txt and task_overview.txt) to store user and task data. Make sure these files are present in the project directory. If they don't exist, the program will create them during execution.
-
-## Exit
-To exit the program, select the 'e' option from the main menu.
-
-Feel free to explore and customize the program based on your requirements!
-
