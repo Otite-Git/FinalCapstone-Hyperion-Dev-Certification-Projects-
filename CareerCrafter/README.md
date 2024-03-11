@@ -1,4 +1,4 @@
-#🎒HyerionDev Bootcamp Projects & Personal Projects 🌟
+# 🎒HyerionDev Bootcamp Projects & Personal Projects 🌟
 Hi! Welcome to my CareerCrafter Folder containg the Python Project 🚀:
 
 In this repository you will see a description of the CareerCrafter project that I have developed as part of my personal progressive development of my code skills.
@@ -6,10 +6,10 @@ In this repository you will see a description of the CareerCrafter project that 
 
 Personal Data Validation CareerCrafter Program
 
-##Overview
+## Overview
 This project involves the development of a program that validates personal data provided by a user for an application. The program utilises defensive programming techniques to ensure the accuracy and validity of the input data. The primary features of the program include:
 
-**Input Validation: Conditional statements are employed to validate user inputs, ensuring that the required information is provided and meets specific criteria.
+** Input Validation: Conditional statements are employed to validate user inputs, ensuring that the required information is provided and meets specific criteria.
 
 Error Handling: The program incorporates try-except blocks to efficiently manage unexpected exceptions. This helps in identifying and addressing various error types, enhancing the overall robustness of the application.
 
