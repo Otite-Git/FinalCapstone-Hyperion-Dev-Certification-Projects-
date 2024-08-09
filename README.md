@@ -1,4 +1,4 @@
-# 🎒HyerionDev Certification & Personal Projects 🌟
+# 🎒Python Language Projects 🌟
 
 **Hi! Welcome to my repo containing the Python Project I've have undertaken on the HyperionDev Certification Program journey along with personal project I've gone on to develop on a variety on things 🚀:**
 
